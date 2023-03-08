@@ -1,0 +1,2 @@
+#!/bin/bash
+(printf '.\n..\n' ; (ls -1 | sort -df | sed -e 's/\(.*\)\.$/\1\//')) | paste -sd,
