@@ -1,2 +1,7 @@
 #!/bin/bash
-Path=$(pwd); cd $Path
+
+# Save the current directory in a variable
+prev_dir=$PWD
+
+# Change to the previous directory
+cd -
